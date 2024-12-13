@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Actividad</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+    <h1>Crear Actividad</h1>
+
+    <div class="form-group">
+        <label for="materia">Elige Materia:</label>
+        <select class="form-select" multiple aria-label="Multiple select example">            
+            <option value="1">MATEMATICAS</option>
+            <option value="2">ESPAÑOL</option>
+            <option value="3">BIOLOGIA</option>
+            <option value="3">SOCIALES </option>
+            <option value="3">MUSICA</option>
+            <option value="3">INGLES</option>
+          </select>
+    </div>
+
+
+    
+    <div class="form-group">
+        <label for="audio">Cargar Audios:</label>
+        <input type="file" id="audio" accept="audio/*">
+    </div>
+
+    <div class="form-group">
+        <label for="imagen">Cargar Imágenes:</label>
+        <input type="file" id="imagen" accept="image/*">
+    </div>
+
+    <div class="form-group">
+        <label for="descripcion">Descripción de la Actividad:</label>
+        <textarea id="descripcion" rows="4" placeholder="DESCRIBE LA ACTIVIDAD"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="descripcion">Titulo de la Actividad</label>
+        <textarea id="descripcion" rows="4" placeholder="ESCRIBE EL TITULO"></textarea>
+    </div>
+
+    
+    <button id="crearActividad">Crear Actividad</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
