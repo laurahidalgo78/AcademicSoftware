@@ -1,3 +1,20 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.nav__contenedor-logo {
+    width: 20%;
+}
+
+.nav__contenedor-logo > :nth-child(2) > label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav__contenedor-menu {
+    width: 25%;
+}
+
+.nav__contenedor-menu > ul > li:hover {
+    background-color: rgb(241, 241, 241);
+}
