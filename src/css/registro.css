@@ -1,5 +1,5 @@
 .left-panel {
-    background: url('/src/img/logo_web.png') no-repeat center center;
+    background: url('../img/logo_web.png') no-repeat center center;
     background-size: cover;
     min-height: 100vh;
 }
