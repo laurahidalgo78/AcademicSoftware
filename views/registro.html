@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/registro.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Panel Izquierdo -->
+            <div class="col-lg-6 left-panel d-none d-lg-block"></div>
+
+            <!-- Panel Derecho -->
+            <div class="col-lg-6 right-panel">
+                <div class="register-box">
+                    <h2 class="text-center mb-4">Regístrate</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombres" class="form-label">Nombres</label>
+                            <input type="text" class="form-control" id="nombres" placeholder="Ingrese sus nombres" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellidos" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="tipoDocumento" class="form-label">Tipo de Documento</label>
+                            <select class="form-select" id="tipoDocumento" required>
+                                <option value="" selected disabled>Seleccione</option>
+                                <option value="cc">Cédula de Ciudadanía</option>
+                                <option value="ce">Cédula de Extranjería</option>
+                                <option value="pasaporte">Pasaporte</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="documento" class="form-label">Documento</label>
+                            <input type="text" class="form-control" id="documento" placeholder="Ingrese su número de documento" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="celular" class="form-label">Celular</label>
+                            <input type="tel" class="form-control" id="celular" placeholder="Ingrese su número de celular" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="tipoPersona" class="form-label">Tipo de Persona</label>
+                            <select class="form-select" id="tipoPersona" required>
+                                <option value="" selected disabled>Seleccione</option>
+                                <option value="natural">Persona Natural</option>
+                                <option value="juridica">Persona Jurídica</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="institucion" class="form-label">Institución</label>
+                            <input type="text" class="form-control" id="institucion" placeholder="Ingrese su institución">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" placeholder="Cree su contraseña" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
